@@ -1,0 +1,25 @@
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f6ebf7;
+  padding: 160px 0;
+}
