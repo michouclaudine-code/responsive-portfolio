@@ -1,7 +1,6 @@
 :root {
   --default-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  --secondary-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  --secondary-font-family: Georgia, "Times New Roman", Times, serif;
   --primary-color: #f6ebf7;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -10,7 +9,6 @@
 h1 {
   font-size: 80px;
 }
-
 h2 {
   font-size: 40px;
 }
@@ -42,10 +40,6 @@ h3 {
   margin-top: 50px;
 }
 
-.container h2 {
-  font-family: var(--secondary-font-family);
-}
-
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -55,6 +49,7 @@ h3 {
   box-shadow: var(--box-shadow);
   color: #666666;
   font-family: var(--secondary-font-family);
+  font-size: 15px;
 }
 
 .content-container {
@@ -62,12 +57,12 @@ h3 {
 }
 
 .content-container h1 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.2;
 }
 
 .content-container h2 {
-  font-size: 20px;
+  font-size: 14px;
   font-family: var(--default-font-family);
 }
 
