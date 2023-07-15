@@ -40,6 +40,10 @@ h3 {
   margin-top: 50px;
 }
 
+.container img {
+  border-style: solid;
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -84,4 +88,8 @@ h3 {
 
 .grid-item {
   margin-top: 40px;
+}
+
+.navbar {
+  background-color: aqua;
 }
