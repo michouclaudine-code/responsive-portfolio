@@ -171,4 +171,9 @@ footer .contact-box {
   .content-container {
     padding: 0px;
   }
+
+  .macrame img {
+    width: 150px;
+    margin: 5px;
+  }
 }
