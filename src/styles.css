@@ -119,3 +119,50 @@ footer .contact-box {
   padding: 30px;
   border-radius: 10px;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .container h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container .primary-link {
+    display: none;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content-container h1 {
+    font-size: 35px;
+  }
+
+  .content-container h2 {
+    font-size: 24px;
+  }
+
+  .content-container img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-container {
+    padding: 0px;
+  }
+}
