@@ -18,6 +18,10 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 40px;
+}
+
 h1,
 h2,
 h3 {
@@ -47,6 +51,18 @@ h3 {
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: #666666;
+  font-family: var(--secondary-font-family);
+  font-size: 15px;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 25px 50px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -92,4 +108,14 @@ h3 {
 
 .navbar {
   background-color: aqua;
+}
+
+footer {
+  margin: 50px;
+}
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-radius: 10px;
 }
